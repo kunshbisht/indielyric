@@ -1,7 +1,7 @@
 import { RotateCcw } from "lucide-react";
-import { StepHeading } from "../../components/StepHeading";
-import AudioPlayer from "../../components/AudioPlayer";
-import { useLyricSync } from "./hooks/useLyrics";
+import { StepHeading } from "../components/StepHeading";
+import AudioPlayer from "../components/AudioPlayer";
+import { useLyricSync } from "../hooks/useLyrics";
 import type { SongProject } from "@/types/project";
 
 interface Props {
